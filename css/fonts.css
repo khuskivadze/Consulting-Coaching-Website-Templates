@@ -1,0 +1,13 @@
+@font-face {
+    font-family: normal;
+    src: url(../css/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../css/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff);
+}
+@font-face {
+    font-family: body;
+    src: url(../css/fonts/WixMadeforTextVF_W_Wght.8022447a.woff2);
+}
