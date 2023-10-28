@@ -188,7 +188,7 @@ main {
  
 .about{
     width: 100%;
-    height: 716px;
+    height: 800px;
    
     display: flex;
    justify-content: center;
@@ -396,17 +396,80 @@ footer .content {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 footer .content .info {
     width: 300px;
     height: 550px;
-    background-color: #000;
+   
+ 
 }
+.info h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px ;
+    letter-spacing: 3px;
+}
+footer .content .info  .content {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 35px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+ 
+
+}
+footer .content .info  .content div {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+     
+}
+footer .content .info  .content div span {
+    font-size: 15px;
+    font-family: normal;
+}
+ 
 footer .content .input {
     width: 600px;
     height: 550px;
-    background-color: #af2222;
+ 
 }
  
  
+footer .content  .social {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+footer .content  .social  i {
+    font-size: 19px;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+}
+.input form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 20px;
+  
+}
+.input form input {
+    width: 90%;
+    height: 30px;
+    background: transparent;
+}
+textarea {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 90%;
+}
